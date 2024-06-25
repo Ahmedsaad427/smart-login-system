@@ -1,0 +1,76 @@
+body {
+    background-color: #24353f;
+    color: white;
+  }
+  
+  .card {
+    background-color: #24353f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+  }
+  
+  .card-header {
+    color: #44badb;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  form {
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    color: white;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder,
+  input[type="password"]::placeholder {
+    color: white;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #44badb;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .btn-block {
+    background-color: transparent;
+    border: 1px solid #17a2b8;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .btn-block:hover {
+    background-color: #05b9eb;
+    border-color: #05b9eb;
+  }
+  
+  .btn-block:focus {
+    outline: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+  }
+  
